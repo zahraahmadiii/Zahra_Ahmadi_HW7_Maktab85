@@ -1,0 +1,39 @@
+body{  
+    font-family: sans-serif;  
+    background-color:#b5e6f7;   
+}  
+.container {  
+   padding: 40px;  
+   background-color: #b5e6f7;
+}  
+hr{  
+    border: 1px solid #f1f1f1;  
+    margin-bottom: 26px;  
+}  
+input[type=text], input[type=password], textarea {  
+    width: 100%;  
+    padding: 14px;  
+    margin-top: 5px;  
+    margin-bottom: 23px;
+    display: inline-block;  
+    border: none;  
+    background: #fff5f5;  
+}  
+
+input[type=text]:focus, input[type=password]:focus {  
+  
+    outline: none;  
+}  
+div{  
+  padding: 10px 0;
+}  
+
+.registbtn{  
+    background-color: #54be57;  
+    color: white;  
+    padding: 15px 20px;  
+    margin: 8px 0;  
+    cursor: pointer;  
+    width: 100%;  
+    border: none;   
+}

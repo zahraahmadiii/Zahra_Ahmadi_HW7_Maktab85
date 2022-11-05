@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student Registration form </title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<form>  
+
+ <div class="container">  
+
+        <center> <h1> Student Registeration Form</h1> </center> 
+
+        <hr>  
+
+      <label> Firstname: </label>   
+      <input type="text" name="firstname" placeholder= "Firstname"  pattern="[A-Za-z]" maxlength="10" required /> 
+
+      <label> Middlename: </label>   
+      <input type="text" name="middlename" placeholder="Middlename"  pattern="[A-Za-z]" maxlength="15" required />  
+
+      <label> Lastname: </label>    
+      <input type="text" name="lastname" placeholder="Lastname"   pattern="[A-Za-z]" required/>  
+
+       
+      
+     <div> 
+      <label>Course:</label>   
+      <select>  
+        <option value="Course">Course</option>  
+        <option value="level1">level1</option>  
+        <option value="level2">level2</option>  
+        <option value="level3">level3</option>  
+        <option value="level4">level4</option>  
+        <option value="level5">level5</option>  
+      </select>  
+     </div> 
+
+     <div>  
+        <label> Gender:</label><br>  
+        <input type="radio" value="Male" name="gender" checked > Male   
+        <input type="radio" value="Female" name="gender"> Female   
+        <input type="radio" value="Other" name="gender"> 
+        Other  
+          
+     </div>  
+
+
+        <label> Phone:</label>   
+          
+        <input type="text" placeholder="Country Code"  name="country code"  value="+91" size="2" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/> 
+
+        <input type="text" name="phone" placeholder="phone no." size="10" required  pattern="[0-9]{3}"> 
+
+        Address: 
+        <textarea cols="80" rows="5" placeholder="Current Address" value="address" required  maxlength="100">  
+        </textarea>  
+
+        <label for="email"><b>Email</b></label>  
+        <input type="text" placeholder="Enter Email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">  
+          
+        <label for="pass"><b>Password</b></label>  
+        <input type="password" placeholder="Enter Password" name="pass" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">  
+          
+        <label for="pass-repeat"><b>Re-type Password</b></label>  
+        <input type="password" placeholder="Retype Password" name="pass-repeat" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">  
+
+     <button type="submit" class="registbtn">Register</button>  
+
+   </div> 
+</form>    
+
+
+<script src="script.js"></script>
+</body>
+</html>

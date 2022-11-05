@@ -1,0 +1,147 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 4vh;
+    background-color: rgb(201, 200, 200);
+    border: 1px solid rgb(150, 148, 148);
+    display: flex;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 400px;
+   
+}
+.init{
+    display: flex;
+    flex-direction: row;
+    gap:10px ;
+}
+#site{
+    width: 300px;
+    border: none;
+}
+.fa{
+    color: rgb(73, 73, 73);
+}
+
+.container{
+    width: 100%;
+    background-color: rgb(218, 218, 218);
+
+}
+h2{
+    margin-top: 10px;
+}
+.showvideo{
+    display: flex;
+    flex-direction: column;
+     gap: 15px;
+
+}
+video{
+    width: 80%;
+    height:30vh; 
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    width: 80%;
+   
+}
+label{
+    font-size: small;
+    font-family: sans-serif;
+}
+.model{
+    width: 100px;
+    border-radius: 2px;
+    border: none;
+   
+}
+.processor{
+    width: 100px;
+    border-radius: 2px;
+    border: none;
+}
+.Ram{
+    width: 100px;
+    background-color: rgb(85, 163, 236);
+    border-radius: 2px;
+    border: none;
+}
+.harddisk{
+    width: 100px;
+    background-color: rgb(85, 163, 236);
+    border-radius: 2px;
+    border: none;
+
+}
+.display{
+    width: 100px;
+    border-radius: 2px;
+    border: none;
+
+}
+.graphic{
+    width: 100px;
+    border-radius: 2px;
+    border: none;
+
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+    color: gray;
+}
+.allLaptop{
+    width: 80%;
+    margin-top: 30px;
+}
+
+table{
+    width: 100%;
+    height: 70vh;
+    border: none;
+    background-color: white;
+  
+}
+th{
+    background-color: rgb(216, 216, 216);
+    font-size: smaller;
+    color: rgb(150, 57, 57);
+   
+}
+td,th{
+    border: none;
+    padding-left: 7px;
+    background-color: rgb(216, 216, 216);
+}
+td{
+    font-size: small;
+    color: rgb(66, 66, 66);
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    
+}
+.laptop1{
+    display: flex;
+    flex-direction: row;
+}
+.btn{
+    width: 90%;
+    height: 5vh;
+    border-radius: 15px;
+    background-color: rgb(7, 7, 102);
+    color: white;
+    font-size: 10px;
+}
